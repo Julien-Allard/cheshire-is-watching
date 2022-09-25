@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(
+    57deg,
+    rgba(7, 0, 0, 1) 0%,
+    rgba(23, 40, 39, 1) 99%
+  );
+
+  main {
+    position: relative;
+
+    #eyes {
+      // position: absolute;
+
+      img {
+        position: absolute;
+      }
+
+      #left-eye {
+        top: 179px;
+        left: 252px;
+      }
+
+      #right-eye {
+        top: 189px;
+        left: 212px;
+      }
+    }
+  }
+}

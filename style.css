@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(57deg, rgb(7, 0, 0) 0%, rgb(23, 40, 39) 99%);
+}
+body main {
+  position: relative;
+}
+body main #eyes img {
+  position: absolute;
+}
+body main #eyes #left-eye {
+  top: 179px;
+  left: 252px;
+}
+body main #eyes #right-eye {
+  top: 189px;
+  left: 212px;
+}/*# sourceMappingURL=style.css.map */
